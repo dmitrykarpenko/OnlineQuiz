@@ -1,0 +1,25 @@
+﻿@model OnlineQuiz_v02.ViewModels.QuestionVM
+@{
+    ViewBag.Title = "Add question";
+}
+@section scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}
+Add question
+<form method="post">
+    <div>
+        <div>
+            <label asp-for="Statement"></label>
+            <textarea type="text" rows="3" asp-for="Statement"></textarea>
+            <span asp-validation-for="Statement"></span>
+        </div>
+        <div>
+            <label>Answer</label>
+            <textarea type="text" rows="2"></textarea>
+            <label>Correct?</label>
+            <input type="checkbox" value="" />
+        </div>
+        <input type="submit" value="Add" />
+    </div>
+</form>

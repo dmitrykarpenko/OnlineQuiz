@@ -1,0 +1,8 @@
+{
+  "MailSettings": {
+    "ToAddress": "infobiztestmail@gmail.com"
+  },
+  "ConnectionStrings": {
+    "QuizContextConnection": "server=(localdb)\\MSSQLLocalDB;database=quiz_db;trusted_connection=true;MultipleActiveResultSets=true;"
+  }
+}

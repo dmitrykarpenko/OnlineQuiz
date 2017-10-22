@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{33578EEB-054C-40A7-9FAA-93712589AC8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8F54903-29D8-424D-A536-7B614504B953}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineQuiz_v02", "src\OnlineQuiz_v02\OnlineQuiz_v02.csproj", "{A5662BAD-5025-42FE-99C0-A8687E5A3FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5662BAD-5025-42FE-99C0-A8687E5A3FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5662BAD-5025-42FE-99C0-A8687E5A3FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5662BAD-5025-42FE-99C0-A8687E5A3FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5662BAD-5025-42FE-99C0-A8687E5A3FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5662BAD-5025-42FE-99C0-A8687E5A3FCF} = {33578EEB-054C-40A7-9FAA-93712589AC8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CFE50AC-3751-40DB-90A8-7D7EBD3FB925}
+	EndGlobalSection
+EndGlobal
