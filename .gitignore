@@ -76,5 +76,8 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
+
+# Custom
 .vs/config/applicationhost.config
 /src/OnlineQuiz_v02/wwwroot/lib
+/src/OnlineQuiz_v02/node_modules
