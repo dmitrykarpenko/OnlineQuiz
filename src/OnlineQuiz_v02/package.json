@@ -2,11 +2,17 @@
   "version": "1.0.0",
   "name": "asp.net",
   "private": true,
-  "devDependencies": {},
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
     "jquery-validation": "^1.17.0",
     "jquery-validation-unobtrusive": "^3.2.6"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.2.0",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "webpack": "webpack --progress --watch --config webpack.config.js"
   }
 }

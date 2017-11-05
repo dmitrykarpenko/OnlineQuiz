@@ -81,3 +81,5 @@ _[Ss]cripts
 .vs/config/applicationhost.config
 /src/OnlineQuiz_v02/wwwroot/lib
 /src/OnlineQuiz_v02/node_modules
+/src/OnlineQuiz_v02/wwwroot/bundles
+/src/OnlineQuiz_v02/wwwroot/npm
